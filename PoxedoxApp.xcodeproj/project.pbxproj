@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0437E3D42C60A5C400B5D796 /* PoxedoxAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437E3D32C60A5C400B5D796 /* PoxedoxAppApp.swift */; };
+		0437E3D62C60A5C400B5D796 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437E3D52C60A5C400B5D796 /* ContentView.swift */; };
+		0437E3D82C60A5C600B5D796 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0437E3D72C60A5C600B5D796 /* Assets.xcassets */; };
+		0437E3DB2C60A5C600B5D796 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0437E3DA2C60A5C600B5D796 /* Preview Assets.xcassets */; };
+		0437E3E32C60A61100B5D796 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437E3E22C60A61100B5D796 /* Helpers.swift */; };
+		0437E3E62C60A66D00B5D796 /* PoxemonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437E3E52C60A66D00B5D796 /* PoxemonView.swift */; };
+		0437E3E82C60A6B500B5D796 /* PoxemonDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437E3E72C60A6B500B5D796 /* PoxemonDetailView.swift */; };
+		0437E3EB2C60A71400B5D796 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437E3EA2C60A71400B5D796 /* ViewModel.swift */; };
+		0437E3EE2C60A74D00B5D796 /*  PoxemonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437E3ED2C60A74D00B5D796 /*  PoxemonModel.swift */; };
+		0437E3F12C60A78400B5D796 /* PoxemonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437E3F02C60A78400B5D796 /* PoxemonManager.swift */; };
+		0437E3F42C60A7F300B5D796 /* poxemon.json in Resources */ = {isa = PBXBuildFile; fileRef = 0437E3F32C60A7F300B5D796 /* poxemon.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0437E3D02C60A5C400B5D796 /* PoxedoxApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoxedoxApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0437E3D32C60A5C400B5D796 /* PoxedoxAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoxedoxAppApp.swift; sourceTree = "<group>"; };
+		0437E3D52C60A5C400B5D796 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0437E3D72C60A5C600B5D796 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0437E3DA2C60A5C600B5D796 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0437E3E22C60A61100B5D796 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		0437E3E52C60A66D00B5D796 /* PoxemonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoxemonView.swift; sourceTree = "<group>"; };
+		0437E3E72C60A6B500B5D796 /* PoxemonDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoxemonDetailView.swift; sourceTree = "<group>"; };
+		0437E3EA2C60A71400B5D796 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		0437E3ED2C60A74D00B5D796 /*  PoxemonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " PoxemonModel.swift"; sourceTree = "<group>"; };
+		0437E3F02C60A78400B5D796 /* PoxemonManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoxemonManager.swift; sourceTree = "<group>"; };
+		0437E3F32C60A7F300B5D796 /* poxemon.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = poxemon.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0437E3CD2C60A5C400B5D796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0437E3C72C60A5C400B5D796 = {
+			isa = PBXGroup;
+			children = (
+				0437E3D22C60A5C400B5D796 /* PoxedoxApp */,
+				0437E3D12C60A5C400B5D796 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0437E3D12C60A5C400B5D796 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0437E3D02C60A5C400B5D796 /* PoxedoxApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0437E3D22C60A5C400B5D796 /* PoxedoxApp */ = {
+			isa = PBXGroup;
+			children = (
+				0437E3EF2C60A76400B5D796 /* Manager */,
+				0437E3EC2C60A73B00B5D796 /* Model */,
+				0437E3E92C60A6E800B5D796 /* ViewModel */,
+				0437E3E42C60A63A00B5D796 /* Views */,
+				0437E3E12C60A5FC00B5D796 /* Helpers */,
+				0437E3F22C60A7AE00B5D796 /* Data */,
+				0437E3D32C60A5C400B5D796 /* PoxedoxAppApp.swift */,
+				0437E3D72C60A5C600B5D796 /* Assets.xcassets */,
+				0437E3D92C60A5C600B5D796 /* Preview Content */,
+			);
+			path = PoxedoxApp;
+			sourceTree = "<group>";
+		};
+		0437E3D92C60A5C600B5D796 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0437E3DA2C60A5C600B5D796 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0437E3E12C60A5FC00B5D796 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0437E3E22C60A61100B5D796 /* Helpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0437E3E42C60A63A00B5D796 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0437E3E52C60A66D00B5D796 /* PoxemonView.swift */,
+				0437E3E72C60A6B500B5D796 /* PoxemonDetailView.swift */,
+				0437E3D52C60A5C400B5D796 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0437E3E92C60A6E800B5D796 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0437E3EA2C60A71400B5D796 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0437E3EC2C60A73B00B5D796 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0437E3ED2C60A74D00B5D796 /*  PoxemonModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0437E3EF2C60A76400B5D796 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				0437E3F02C60A78400B5D796 /* PoxemonManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		0437E3F22C60A7AE00B5D796 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0437E3F32C60A7F300B5D796 /* poxemon.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0437E3CF2C60A5C400B5D796 /* PoxedoxApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0437E3DE2C60A5C600B5D796 /* Build configuration list for PBXNativeTarget "PoxedoxApp" */;
+			buildPhases = (
+				0437E3CC2C60A5C400B5D796 /* Sources */,
+				0437E3CD2C60A5C400B5D796 /* Frameworks */,
+				0437E3CE2C60A5C400B5D796 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PoxedoxApp;
+			productName = PoxedoxApp;
+			productReference = 0437E3D02C60A5C400B5D796 /* PoxedoxApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0437E3C82C60A5C400B5D796 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					0437E3CF2C60A5C400B5D796 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 0437E3CB2C60A5C400B5D796 /* Build configuration list for PBXProject "PoxedoxApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0437E3C72C60A5C400B5D796;
+			productRefGroup = 0437E3D12C60A5C400B5D796 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0437E3CF2C60A5C400B5D796 /* PoxedoxApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0437E3CE2C60A5C400B5D796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0437E3DB2C60A5C600B5D796 /* Preview Assets.xcassets in Resources */,
+				0437E3F42C60A7F300B5D796 /* poxemon.json in Resources */,
+				0437E3D82C60A5C600B5D796 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0437E3CC2C60A5C400B5D796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0437E3F12C60A78400B5D796 /* PoxemonManager.swift in Sources */,
+				0437E3D62C60A5C400B5D796 /* ContentView.swift in Sources */,
+				0437E3E62C60A66D00B5D796 /* PoxemonView.swift in Sources */,
+				0437E3E82C60A6B500B5D796 /* PoxemonDetailView.swift in Sources */,
+				0437E3E32C60A61100B5D796 /* Helpers.swift in Sources */,
+				0437E3EB2C60A71400B5D796 /* ViewModel.swift in Sources */,
+				0437E3EE2C60A74D00B5D796 /*  PoxemonModel.swift in Sources */,
+				0437E3D42C60A5C400B5D796 /* PoxedoxAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0437E3DC2C60A5C600B5D796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0437E3DD2C60A5C600B5D796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0437E3DF2C60A5C600B5D796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PoxedoxApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoga.PoxedoxApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0437E3E02C60A5C600B5D796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PoxedoxApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoga.PoxedoxApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0437E3CB2C60A5C400B5D796 /* Build configuration list for PBXProject "PoxedoxApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0437E3DC2C60A5C600B5D796 /* Debug */,
+				0437E3DD2C60A5C600B5D796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0437E3DE2C60A5C600B5D796 /* Build configuration list for PBXNativeTarget "PoxedoxApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0437E3DF2C60A5C600B5D796 /* Debug */,
+				0437E3E02C60A5C600B5D796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0437E3C82C60A5C400B5D796 /* Project object */;
+}
